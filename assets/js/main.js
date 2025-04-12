@@ -58,7 +58,7 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img , .More-area
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Scientist","AI/ML Engineer","Data Analyst","Cloud Data Architect","Data Quality Analyst", "Data Engineer"],
+    strings: ["SDET","QA Engineer","Data Quality Tester / ETL Tester","AI/ML Test Engineer","QA Lead"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
