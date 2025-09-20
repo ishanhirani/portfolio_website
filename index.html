@@ -13,7 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 
-    <title>Ishan Hirani | SDET</title>
+    <title>Ishan Hirani | Freelancer</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">Ishan</a>
+                <a href="#" class="nav__logo"></a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -29,7 +29,7 @@
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Services</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -60,10 +60,10 @@
                         class='bx bxl-github'></i></a>
                 <a href="https://www.instagram.com/ishan_hirani/" class="home__social-icon" target="_blank"><i
                         class='bx bxl-instagram'></i></a>
-                <a href="https://x.com/ishan_hirani" class="home__social-icon" target="_blank"><i
+                <!-- <a href="https://x.com/ishan_hirani" class="home__social-icon" target="_blank"><i
                         class='bx bxl-twitter'></i></a>
                 <a href="https://www.facebook.com/profile.php?id=100006259427292" class="home__social-icon"
-                    target="_blank"><i class='bx bxl-facebook'></i></a>
+                    target="_blank"><i class='bx bxl-facebook'></i></a> -->
             </div>
 
             <div class="home__img">
@@ -81,45 +81,65 @@
                 </svg>
             </div>
         </section>
+        <!--===== HOME =====-->
 
         <!--===== ABOUT =====-->
         <section class="about section " id="about">
             <h2 class="section-title">About</h2>
-
+            <h2 class="about__subtitle dynamic-center-text">Bridging Business Goals with Quality Automation.</h2>
+            <script>
+                // Example dynamic effect: typing animation
+                const text = "Bridging Business Goals with Quality Automation.";
+                const el = document.querySelector('.dynamic-center-text');
+                el.textContent = "";
+                let i = 0;
+                function type() {
+                    if (i < text.length) {
+                        el.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(type, 40);
+                    }
+                }
+                type();
+            </script>
+            <style>
+                .dynamic-center-text {
+                    text-align: center;
+                    display: block;
+                    width: 100%;
+                    margin: 0 auto 0 auto;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+            </style>
             <div class="about__container bd-grid">
                 <div class="about__img">
                     <img src="assets/img/manOnTable.svg" alt="">
                 </div>
 
                 <div>
-                    <h2 class="about__subtitle">Hi, I'm Ishan — a dedicated and driven tech professional with a strong foundation in Computer Technology and a passion for continuous growth.</h2>
                     <p class="about__text">
-                        I graduated in 2021 with a perfect 10 CGPA from RCERT Chandrapur. Post-graduation, 
-                        I was fortunate to receive multiple offers from top IT firms like TCS, Cognizant, and Accenture. 
-                        I chose Accenture to kickstart my career as an Application Development Associate, and through consistent performance and growth, 
-                        I currently serve as an Analyst leading internal and client-facing projects.</p>
+                        I help businesses deliver reliable, high-quality software by bridging technical expertise with
+                        business needs. With 4+ years of experience, I specialize in navigating the full (SDLC/STLC),
+                        applying manual, automation, API, integration, and ETL testing to ensure every release is
+                        accurate, seamless, and aligned with business objectives. Over the years, I have successfully
+                        built automation frameworks, optimized testing processes, and validated complex systems,
+                        enabling faster and more confident software deployments.</p>
                     <br>
-                    <p class="about__text">Over the years, I’ve honed my expertise in Software Development Engineering in Test (SDET) by working across diverse domains, 
-                        leveraging tools and frameworks for automation, database integration, and end-to-end testing. 
-                        I’ve also taken proactive steps to upskill — earning a Postgraduate Certificate in AI and ML from IIT Jodhpur and an Azure Cloud Fundamentals Certification, 
-                        reinforcing my readiness for next-gen tech challenges.</p>
+                    <p class="about__text">I bring a disciplined, detail-oriented, and results-driven approach to every
+                        project, ensuring software meets both technical standards and business expectations. I hold a
+                        bachelor’s degree in Computer Technology and am a GATE-qualified professional, reflecting my
+                        strong technical foundation and commitment to continuous learning. Beyond software, I am a
+                        fitness enthusiast and powerlifting champion, bringing the same focus, discipline, and drive to
+                        every project I handle.</p>
                     <br>
-                    <p class="about__text">Beyond the professional world, I’ve always been passionate about sports. 
-                        From a young age, I actively participated in games like table tennis, badminton, football, cricket, swimming, and chess. 
-                        In high school, I found my calling in fitness and gym training, which instilled in me the values of discipline, consistency,
-                        and resilience. This journey led me to powerlifting, where I clinched my first gold medal in the 2020 Junior Deadlift 
-                        Championship in Raipur with a lift of 207 kg, 
-                        and later secured a silver medal in the All India powerlifting Championship 2022 held in delhi, lifting 245 kg deadlift.</p>
-                    <br>
-                     <p class="about__text">I'm someone who believes in pushing limits—whether it's breaking technical barriers in the IT world or personal 
-                         bests on the powerlifting platform. I'm always exploring opportunities that blend my tech expertise with a never-settle attitude.Let’s connect and create something impactful..</p>
                 </div>
             </div>
         </section>
 
         <!--===== SKILLS =====-->
         <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">Technical Skills</h2>
 
             <div class="skills__container bd-grid">
                 <div>
@@ -128,63 +148,65 @@
                         <div class="skills__names">
                             <i class='bx bx-code-block skills__icon'></i>
 
-                            <span class="skills__name">Programming languages</span>
+                            <span class="skills__name"><b>Languages</b> - Python, javascript, SQL</span>
                         </div>
                         <div class="skills__bar skills__prog">
 
                         </div>
-                        <div>
-                            <span class="skills__percentage">85%</span>
-                        </div>
+                        <!-- <div>
+                            <span class="skills__percentage">100%</span>
+                        </div> -->
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bx-data skills__icon'></i>
-                            <span class="skills__name">Manual & Automation Testing</span>
+                            <i class='bx bx-cog skills__icon'></i>
+                            <span class="skills__name"><b>Web Automation</b> - Playwright, WebdriverIO</span>
                         </div>
                         <div class="skills__bar skills__da">
 
                         </div>
-                        <div>
+                        <!-- <div>
                             <span class="skills__percentage">95%</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-bar-chart-square skills__icon'></i>
-                            <span class="skills__name">API and Performance Testing</span>
-                        </div>
-                        <div class="skills__bar skills__vis">
-
-                        </div>
-                        <div>
-                            <span class="skills__percentage">70%</span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <i class='bx bxs-network-chart skills__icon'></i>
-                            <span class="skills__name">Cloud & Database</span>
+                            <i class='bx bx-rocket skills__icon'></i>
+                            <span class="skills__name"><b>API & Performance </b>- Postman, Jmeter</span>
                         </div>
                         <div class="skills__bar skills__ml">
 
                         </div>
-                        <div>
+                        <!-- <div>
                             <span class="skills__percentage">80%</span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <i class='bx bxs-cloud skills__icon'></i>
-                            <span class="skills__name">Machine Learning</span>
+                            <i class='bx bx-bar-chart-square skills__icon'></i>
+                            <span class="skills__name"><b>Data Analysis</b> - Excel & Power BI</span>
+                        </div>
+                        <div class="skills__bar skills__vis">
+
+                        </div>
+                        <!-- <div>
+                            <span class="skills__percentage">70%</span>
+                        </div> -->
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-cloud skills__icon'></i>
+                            <span class="skills__name"><b>NextGen</b> - Cloud & AI/ML</span>
                         </div>
                         <div class="skills__bar skills__cl">
 
                         </div>
-                        <div>
+                        <!-- <div>
                             <span class="skills__percentage">65%</span>
-                        </div>
+                        </div> -->
                     </div>
+
                 </div>
 
                 <div>
@@ -195,41 +217,39 @@
 
         <!--===== WORK =====-->
         <section class="work section" id="work">
-            <h2 class="section-title">Work</h2>
+            <h2 class="section-title">Services</h2>
             <div class="cd-card-wrapper" style="cursor: pointer;">
-                <div class="cd-card"
-                    onclick="window.open('https://github.com/ishanhirani?tab=repositories', '_blank');">
+                <div class="cd-card">
                     <div class="cd-icon">
                         <i class='bx bx-code-alt bx-tada bx-md'></i>
                     </div>
-                    <h3 class="cd-title">Analytics</h3>
-                    <p class="cd-description">Leveraging advanced machine learning algorithms with Python libraries to
-                        transform complex data into actionable insights, driving informed decision-making and
-                        innovation.</p>
+                    <h3 class="cd-title">Data Analytics & AI/ML Services</h3>
+                    <p class="cd-description">Turn raw data into actionable insights with analytics and AI solutions.
+                        Leverage Python, SQL, and machine learning models to solve complex problems.
+                        Helping businesses make smarter, data-driven decisions with predictive intelligence.</p>
                 </div>
-                <div class="cd-card"
-                    onclick="window.open('https://github.com/ishanhirani?tab=repositories', '_blank');">
+                <div class="cd-card">
                     <div class="cd-icon">
-                        <i class='bx bxs-data bx-tada bx-md'></i>
+                        <i class='bx bx-network-chart bx-tada bx-md'></i>
                     </div>
-                    <h3 class="cd-title">Data Manipulation</h3>
-                    <p class="cd-description">Utilizing advanced SQL techniques, including complex queries, window
-                        functions, and joins, to efficiently manipulate data and perform comprehensive CRUD operations,
-                        ensuring seamless data integration and analysis</p>
+                    <h3 class="cd-title">Digital Solutions & Integration</h3>
+                    <p class="cd-description">Provide tailored digital solutions to enhance your operations.
+                        Support includes process automation, app integration, and workflow optimization.
+                        Empowering projects with efficiency, scalability, and innovation.</p>
                 </div>
-                <div class="cd-card"
-                    onclick="window.open('https://github.com/ishanhirani?tab=repositories', '_blank');">
+                <div class="cd-card">
                     <div class="cd-icon">
-                        <i class='bx bxs-pie-chart-alt-2 bx-tada bx-md'></i>
+                        <i class='bx bx-cog bx-tada bx-md'></i>
                     </div>
-                    <h3 class="cd-title">Automation</h3>
-                    <p class="cd-description">Streamlining repetitive tasks using scripting and modern frameworks to enhance accuracy, 
-                        boost productivity, and ensure seamless process execution with minimal manual effort.</p>
+                    <h3 class="cd-title">Automation & Testing Solutions</h3>
+                    <p class="cd-description">Ensure your software runs flawlessly with robust automation and testing.
+                        From web to API, I cover end-to-end testing scenarios.
+                        Delivering reliable, bug-free applications for seamless user experiences.</p>
                 </div>
             </div>
-            <div class="More-area">
+            <!-- <div class="More-area">
                 <a href="https://github.com/ishanhirani?tab=repositories" target="_blank" class="button">More</a>
-            </div>
+            </div> -->
         </section>
         <!--===== WORK =====-->
 
@@ -277,8 +297,8 @@
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-        <p class="footer__copy">Thank you for visiting my personal portfolio website.</p>
-        <p class="footer__copy">Developed with <i class="fa fa-heart pulse"></i> by Ishan Hirani</a></p>
+        <p class="footer__copy">Thank you for visiting </p>
+        <p class="footer__copy">© 2025 Ishan Hirani</a></p>
     </footer>
 
 
