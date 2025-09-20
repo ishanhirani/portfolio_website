@@ -277,9 +277,9 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
-.about__subtitle {
-  margin-bottom: var(--mb-2);
-}
+/* .about__subtitle {
+  margin-bottom: var(--mb-1);
+} */
 .about__img {
   justify-self: center;
 }
@@ -329,19 +329,19 @@ img {
   z-index: var(--z-back);
 }
 .skills__prog {
-  width: 85%;
+  width: 100%;
 }
 .skills__da {
-  width: 95%;
+  width: 100%;
 }
 .skills__vis {
-  width: 70%;
+  width: 100%;
 }
 .skills__ml {
-  width: 80%;
+  width: 100%;
 }
 .skills__cl {
-  width: 65%;
+  width: 100%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -559,9 +559,9 @@ form .button-area {
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
-  .section-title {
+  /* .section-title {
     margin-bottom: var(--mb-6);
-  }
+  } */
   .section-title::after {
     width: 80px;
     top: 3rem;
