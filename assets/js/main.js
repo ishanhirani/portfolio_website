@@ -58,11 +58,11 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img , .More-area
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["SDET","QA Engineer","Data Quality Tester","ETL Tester","AI/ML Test Engineer","QA Lead"],
+    strings: ["SDET","QA Automation Engineer","Freelancer","AI/ML enthusiast"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
-    backDelay: 500,
+    backDelay: 1000,
 });
 // <!-- typed js effect ends -->
 
